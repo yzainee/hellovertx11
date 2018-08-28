@@ -19,6 +19,7 @@ import static io.vertx.core.http.HttpHeaders.CONTENT_TYPE;
 /**
  *
  */
+//Comment
 public class HttpApplication extends AbstractVerticle {
 
     private ConfigRetriever conf;
