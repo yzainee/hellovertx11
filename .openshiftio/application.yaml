@@ -61,7 +61,7 @@ objects:
     output:
       to:
         kind: ImageStreamTag
-        name: ${IMAGENAME}:${RELEASE_VERSION}
+        name: yz-${IMAGENAME}:${RELEASE_VERSION}
     postCommit: {}
     resources: {}
     source:
