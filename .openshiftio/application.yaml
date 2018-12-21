@@ -56,7 +56,7 @@ objects:
     output:
       to:
         kind: ImageStreamTag
-        name: ${IMAGENAME}
+        name: ${IMAGENAME}:tag
     postCommit: {}
     resources: {}
     source:
